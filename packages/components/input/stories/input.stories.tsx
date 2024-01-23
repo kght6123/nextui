@@ -548,7 +548,7 @@ export const Clearable = {
 };
 
 export const ClearableAndEndContent = {
-  render: Template,
+  render: Template, // TODO: replace with add Template
   args: {
     ...defaultProps,
     variant: "bordered",
@@ -563,6 +563,7 @@ export const ClearableAndEndContent = {
       <SearchIcon className="text-black/50 mb-0.5 dark:text-white/90 text-slate-400 pointer-events-none flex-shrink-0" />
     ),
     endContent: (
+      // TODO: replace with shared icons
       <>
         <svg
           className="w-5 h-5 text-2xl text-default-400 pointer-events-none flex-shrink-0"
